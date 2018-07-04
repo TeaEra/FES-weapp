@@ -1,0 +1,30 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.box {
+  width:300px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.main {
+  box-sizing: border-box;
+  width: auto;
+  height:50px;
+  background: #eee;
+  border: 1px solid #ccc;
+  margin:10rpx auto;
+  text-align: center;
+  line-height: 50px;
+}
+.mainmove{position: absolute; opacity: 0.7}
+.maind{background: #fff; border:1px dashed #efefef;}
+.mainend{position: static; opacity: 1;}
